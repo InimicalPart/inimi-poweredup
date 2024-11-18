@@ -1,6 +1,6 @@
 {
   "name": "inimi-poweredup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "src/inimi-poweredup.d.ts",
   "type": "module",
