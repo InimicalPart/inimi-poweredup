@@ -1,5 +1,24 @@
 # inimi-poweredup (a modified version of node-poweredup)
-A rewrite of node-poweredup by nathankellenicki that uses node-ble (modified: inimi-ble) instead of @abandonware/noble
+
+> [!WARNING]
+> This library is a modernized version of [node-poweredup](https://www.npmjs.com/package/node-poweredup).
+> Please look at the [Changes](https://github.com/InimicalPart/inimi-poweredup/?tab=readme-ov-file#changes) section of this README file to understand the changes between this library and [node-poweredup](https://www.npmjs.com/package/node-poweredup).
+>
+> This version will not be maintained. For any changes, fork this repository and make changes yourself. You can create a pull-request if you want to add your changes to this version, but there is no guarantee that your pull-request will be looked at, or merged.
+
+## Changes
+The differences between this library and [node-poweredup](https://www.npmjs.com/package/node-poweredup) are:
+- [``inimi-ble``](https://github.com/InimicalPart/inimi-ble) instead of [``@abandonware/noble``](https://www.npmjs.com/package/@abandonware/noble) as Bluetooth manager.
+  > [``inimi-ble``](https://github.com/InimicalPart/inimi-ble) is a small rewrite of [``node-ble``](https://www.npmjs.com/package/node-ble). To see the changes between the two libraries, check out [``inimi-ble``'s README file](https://github.com/InimicalPart/inimi-ble/?tab=readme-ov-file)
+  - Reason: **The ``@abandonware/noble`` library is a library that causes some issues working with other Bluetooth devices/libraries, and currently does not support Ubuntu 24.04.**
+
+<br/>
+<br/>
+<br/>
+
+> [!NOTE]
+> Below this line, you will find the README file for the original [node-poweredup](https://www.npmjs.com/package/node-poweredup) library.
+<hr/>
 
 [![Drone](https://drone.kellenicki.com/api/badges/nkellenicki/node-poweredup/status.svg)](https://drone.kellenicki.com/nkellenicki/node-poweredup)
 [![NPM Version](https://img.shields.io/npm/v/node-poweredup.svg?style=flat)](https://www.npmjs.com/package/node-poweredup)
