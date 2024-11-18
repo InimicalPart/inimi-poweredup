@@ -16,6 +16,9 @@ The differences between this library and [node-poweredup](https://www.npmjs.com/
 <br/>
 <br/>
 
+> [!CAUTION]
+> Due to the change of library used for Bluetooth management, this library **only supports \*nix devices**. Please look at the documentation for [``node-ble``](https://www.npmjs.com/package/node-ble) for more information.
+
 > [!NOTE]
 > Below this line, you will find the README file for the original [node-poweredup](https://www.npmjs.com/package/node-poweredup) library.
 <hr/>
